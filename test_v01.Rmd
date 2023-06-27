@@ -3,6 +3,8 @@ title: "test_v01"
 output: html_document
 #date: "2023-06-27"
 date: "```r format(Sys.time(), '%d %B, %Y')```"
+
+bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -28,3 +30,40 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+# TESTS
+
+## LVL 2
+
+### LVL 3
+
+Ordered List:
+
+1. item 1
+2. item 2
+3. Item 3
+    + Item 3a
+    + Item 3b
+    
+Unordered List:
+
+* item 1
+* item 2
+  * Item 3.1
+  - Item 3.2
+  
+[Github-Repo](https://github.com/tob-00/R-Repo){target="_blank"}
+
+>"Everything is related to everything else, but near things are more related than distant things".
+>
+>>The phenomenon external to an area of interest affects what goes on inside.
+
+Math. notation example 1:
+
+$x = y$
+
+Math. notation example 2:
+
+$\frac{\partial f}{\partial x}$
+
+According to @kabir2020stimulate, I have no idea what to write here [@kabir2020stimulate].
